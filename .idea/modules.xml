@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BestPickForMobileLegendsBang.iml" filepath="$PROJECT_DIR$/BestPickForMobileLegendsBang.iml" />
+      <module fileurl="file://C:\Users\belfu\AndroidStudioProjects\BestPickForMobileLegendsBang\BestPickForMobileLegendsBang.iml" filepath="C:\Users\belfu\AndroidStudioProjects\BestPickForMobileLegendsBang\BestPickForMobileLegendsBang.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\belfu\AndroidStudioProjects\BestPickForMobileLegendsBang\app\app.iml" filepath="C:\Users\belfu\AndroidStudioProjects\BestPickForMobileLegendsBang\app\app.iml" />
     </modules>
   </component>
 </project>
