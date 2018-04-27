@@ -52,10 +52,36 @@ public class SplashActivity extends AppCompatActivity {
         heroArrayList.add(new Hero(i++, "hylos", "Hylos", "tank", "loong story"));
 
         //fighter
-        heroArrayList.add(new Hero(i++, "saber", "Saber", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "balmond", "Balmond", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "alucard", "Alucard", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "bane", "Bane", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "zilong", "Zilong", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "freya", "Freya", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "chou", "Chou", "fighter", "loong story"));
+        //heroArrayList.add(new Hero(i++, "sun", "Sun", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "alpha", "Alpha", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "ruby", "Ruby", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "hilda", "Hilda", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "lapu", "Lapu-Lapu", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "roger", "Roger", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "argus", "Argus", "fighter", "loong story"));
+        heroArrayList.add(new Hero(i++, "jawhead", "Jawhead", "fighter", "loong story"));
+        //heroArrayList.add(new Hero(i++, "martis", "Martis", "fighter", "loong story"));
 
         //mage
-        heroArrayList.add(new Hero(i++, "saber", "Saber", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "alice", "Alice", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "nana", "Nana", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "eudora", "Eudora", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "gord", "Gord", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "kagura", "Kagura", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "cyclops", "Cyclops", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "aurora", "Aurora", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "vexana", "Vexana", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "harley", "Harley", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "odette", "Odette", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "zhask", "Zhask", "mage", "loong story"));
+        heroArrayList.add(new Hero(i++, "pharsa", "Pharsa", "mage", "loong story"));
+        //heroArrayList.add(new Hero(i++, "valir", "Valir", "mage", "loong story"));
 
         //marksman
         heroArrayList.add(new Hero(i++, "miya", "Miya", "marksman", "loong story"));
