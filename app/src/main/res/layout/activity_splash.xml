@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.dilmacsedat.bestpickformobilelegendsbang.Activity.SplashActivity">
 
+    <Button
+        android:id="@+id/btnGec"
+        android:text="main act'e gec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

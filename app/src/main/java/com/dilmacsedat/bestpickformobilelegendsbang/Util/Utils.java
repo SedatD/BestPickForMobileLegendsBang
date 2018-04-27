@@ -33,7 +33,7 @@ public class Utils {
         ArrayList<Hero> heroArrayListByType = new ArrayList<>();
 
         for (int i = 0; i < heroArrayList.size(); i++)
-            if (heroArrayList.get(i).getStory().equals(type))
+            if (heroArrayList.get(i).getType().equals(type))
                 heroArrayListByType.add(heroArrayList.get(i));
 
         return heroArrayListByType;
