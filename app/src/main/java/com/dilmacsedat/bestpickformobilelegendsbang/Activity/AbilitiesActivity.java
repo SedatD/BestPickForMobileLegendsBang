@@ -20,6 +20,7 @@ public class AbilitiesActivity extends AppCompatActivity implements View.OnClick
     private int linLayWidth;
     private final ArrayList<ImageView> imageViewList = new ArrayList<>();
     private TextView textView_title, textView_detail, textView_cd, textView_lwl;
+    //deneme
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
