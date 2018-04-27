@@ -172,6 +172,18 @@ public class HeroesActivity extends AppCompatActivity implements View.OnClickLis
                     if(list.equals(Utils.getHeroByType("tank"))){
                         heroName = list.get(id).getName();
                     }
+                    if(list.equals(Utils.getHeroByType("fighter"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("mage"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("marksman"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("support"))){
+                        heroName = list.get(id).getName();
+                    }
                     if (((LinearLayout) linLayS).getChildCount() > 0)
                         ((LinearLayout) linLayS).removeAllViews();
                     name3 = heroName+"big";
@@ -237,6 +249,18 @@ public class HeroesActivity extends AppCompatActivity implements View.OnClickLis
                         heroName = list.get(id).getName();
                     }
                     if(list.equals(Utils.getHeroByType("tank"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("fighter"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("mage"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("marksman"))){
+                        heroName = list.get(id).getName();
+                    }
+                    if(list.equals(Utils.getHeroByType("support"))){
                         heroName = list.get(id).getName();
                     }
                     if (((LinearLayout) linLayS).getChildCount() > 0)
