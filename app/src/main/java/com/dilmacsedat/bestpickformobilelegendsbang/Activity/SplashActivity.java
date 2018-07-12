@@ -102,6 +102,8 @@ public class SplashActivity extends AppCompatActivity {
         //heroArrayList.add(new Hero(i++,"angela","Angela","support","loong story"));
 
         //Utils.getHeroByType("asd");
+
+        findViewById(R.id.btnGec).performClick();
     }
 
 }

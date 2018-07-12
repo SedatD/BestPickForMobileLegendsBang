@@ -10,10 +10,16 @@ import java.util.ArrayList;
 public class Constants {
     private static final String TAG = "Constants";
 
+    private static final String YOUTUBE_API_KEY = "AIzaSyBzKhzmKQATpeRSQNa0IEPVrPX-4HrAngc";
+
     private static ArrayList<String> abilitiesListTitle = new ArrayList<>();
     private static ArrayList<String> abilitiesListDetail = new ArrayList<>();
     private static ArrayList<String> abilitiesListCd = new ArrayList<>();
     private static ArrayList<String> abilitiesListLwl = new ArrayList<>();
+
+    public static String getYoutubeApiKey() {
+        return YOUTUBE_API_KEY;
+    }
 
     public static ArrayList getAbilitiesListTitle() {
         abilitiesListTitle.add("Execute");

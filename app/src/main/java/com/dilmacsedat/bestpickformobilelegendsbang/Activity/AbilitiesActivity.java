@@ -17,10 +17,9 @@ import java.util.ArrayList;
 
 public class AbilitiesActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = "AbilitiesAct";
-    private int linLayWidth;
     private final ArrayList<ImageView> imageViewList = new ArrayList<>();
+    private int linLayWidth;
     private TextView textView_title, textView_detail, textView_cd, textView_lwl;
-    //deneme
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,18 +66,16 @@ public class AbilitiesActivity extends AppCompatActivity implements View.OnClick
         for (int i = 0; i < imageViewList.size(); i++)
             imageViewList.get(i).setOnClickListener(this);
 
-
         linLay1.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {
                 linLay1.getViewTreeObserver().removeOnGlobalLayoutListener(this);
 
-                linLayWidth = (linLay1.getWidth() - Utils.dpToPx(getApplicationContext(), 96));
+                linLayWidth = (linLay1.getWidth() - Utils.dpToPx(getApplicationContext(), 104));
                 linLayWidth = (linLayWidth / 6);
 
                 for (int i = 0; i < imageViewList.size(); i++)
                     imageViewMeasures(imageViewList.get(i));
-
 
                 linLay1.requestLayout();
             }
